@@ -1,0 +1,16 @@
+{
+    "name": "evaldobarbosa/arango-provider",
+    "description": "Simple Arango Provider Service for Silex Skeleton",
+    "type": "library",
+    "require": {
+        "silex/silex": "^1.2",
+        "triagens/arangodb": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evaldo Barbosa",
+            "email": "evaldobarbosa@gmail.com"
+        }
+    ]
+}
