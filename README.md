@@ -57,3 +57,21 @@ To get one collection
 
   return new JsonResponse($cursor,200);
 ```
+
+> If you want to use json_encode with Cursor::getAll, you should see
+https://github.com/arangodb/arangodb-php/pull/206
+
+
+
+> If you want to get my fork, you should configure your composer.json like this
+``
+{
+...
+  "repositories": [
+	{
+	    "type": "vcs",
+	    "url": "https://github.com/evaldobarbosa/arangodb-php"
+	}
+  ]
+...
+}
