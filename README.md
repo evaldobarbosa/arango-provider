@@ -36,7 +36,7 @@ Controller action
 To get a cursor from collection handler
 
 ```
-	$cursor = $app['adb-h']->handleCollection()->get('your_collection');
+	$cursor = $app['adb-h']->handleCollection()->all('your_collection');
   
   ...
 
